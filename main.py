@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """The Excuse Your Agent Gives You (make.fun).
 
-Writes the entry -- one original one-line excuse -- to /output/entry.txt,
-where the sealed scorer reads it.
+Writes the entry -- one original one-line excuse, kept as a single line
+with no trailing newline -- to /output/entry.txt, where the sealed
+scorer reads it.
 """
 
 import os
